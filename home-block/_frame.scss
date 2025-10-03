@@ -1,0 +1,35 @@
+.frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 120px;
+
+    &-cont {
+        background-color: black;
+    }
+    &-title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 571px;
+    }
+    &-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #C0C0C0;
+    }
+    .logos-img {
+        width: 1200px;
+        height: 160px;
+    }
+}
